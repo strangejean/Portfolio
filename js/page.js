@@ -130,10 +130,10 @@ $(function () {
     $(this).find("p").css({ "font-weight": "normal", "font-size": "16px" });
   });
   // footer li
-  $(".footer_bottom p").on("mouseenter", function () {
+  $(".footer_bottom ul p").on("mouseenter", function () {
     $(this).css({ opacity: "100%", "font-weight": "bold" });
   });
-  $(".footer_bottom p").on("mouseleave", function () {
+  $(".footer_bottom ul p").on("mouseleave", function () {
     $(this).css({ opacity: "80%", "font-weight": "normal" });
   });
 });
