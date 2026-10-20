@@ -125,9 +125,9 @@ ul {
     display: flex;
     align-items: center;
     display: inline-block;
+    position: absolute;
     bottom: 30%;
     left: 5%;
-    position: absolute;
     z-index: 0;
   }
   /* 글자효과 */
@@ -145,7 +145,7 @@ ul {
 
   @keyframes moveText {
     from {
-      transform: translateX(-0%);
+      transform: translateX(-100%);
     }
     to {
       transform: translateX(100vw);
@@ -1931,7 +1931,7 @@ ul {
   .con04 .con04_box01 {
     width: 100%;
     /* display: flex; */
-    gap: 50px;
+    /* gap: 50px; */
     margin: 0px auto;
   }
   .con04 .con04_box02 {
@@ -1939,7 +1939,7 @@ ul {
   }
   /* box01_con01 */
   .con04 .box01_con01 {
-    width: 350px;
+    width: 100%;
     height: 200px;
     background-image: url(../img/section4_img1.jpg);
     background-repeat: no-repeat;
@@ -1952,7 +1952,7 @@ ul {
 
   /* box01 con02 */
   .con04 .box01_con02 {
-    width: 350px;
+    width: 100%;
     height: 200px;
     background-image: url(../img/section4_img2.jpg);
     background-repeat: no-repeat;
